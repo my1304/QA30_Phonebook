@@ -20,7 +20,9 @@ public class UserHelper extends BaseHelper{
     public void clickOnRegistrationButton() {
         click(By.name("registration"));
     }
-
+    public boolean isSignOutButtonPresent() {
+        return isElementPresent(By.cssSelector("button"));
+    }
     public void fillLoginRegisterForm(User user) {
         type(By.name("email"), user.getEmail());
         type(By.name("password"), user.getPassword());
