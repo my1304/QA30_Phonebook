@@ -1,0 +1,8 @@
+gradle clean qa
+gradle clean qa1 -Psuite2
+
+
+https://testng.org/#_testng_documentation
+
+
+https://logback.qos.ch/manual/index.html
